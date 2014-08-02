@@ -11,6 +11,8 @@
 		D6CFFEA8198D22A800AA78E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CFFEA7198D22A800AA78E6 /* AppDelegate.m */; };
 		D6CFFEAA198D22A800AA78E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CFFEA9198D22A800AA78E6 /* Images.xcassets */; };
 		D6CFFEB6198D22A800AA78E6 /* WGContainerTransitionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CFFEB5198D22A800AA78E6 /* WGContainerTransitionsTests.m */; };
+		D6CFFEC1198D240A00AA78E6 /* WGChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CFFEC0198D240A00AA78E6 /* WGChildViewController.m */; };
+		D6CFFEC4198D2C9C00AA78E6 /* WGContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CFFEC3198D2C9C00AA78E6 /* WGContainerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,10 @@
 		D6CFFEAF198D22A800AA78E6 /* WGContainerTransitionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGContainerTransitionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CFFEB4198D22A800AA78E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6CFFEB5198D22A800AA78E6 /* WGContainerTransitionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGContainerTransitionsTests.m; sourceTree = "<group>"; };
+		D6CFFEBF198D240A00AA78E6 /* WGChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGChildViewController.h; sourceTree = "<group>"; };
+		D6CFFEC0198D240A00AA78E6 /* WGChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGChildViewController.m; sourceTree = "<group>"; };
+		D6CFFEC2198D2C9C00AA78E6 /* WGContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGContainerViewController.h; sourceTree = "<group>"; };
+		D6CFFEC3198D2C9C00AA78E6 /* WGContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGContainerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,10 @@
 				D6CFFEA7198D22A800AA78E6 /* AppDelegate.m */,
 				D6CFFEA9198D22A800AA78E6 /* Images.xcassets */,
 				D6CFFEA2198D22A800AA78E6 /* Supporting Files */,
+				D6CFFEBF198D240A00AA78E6 /* WGChildViewController.h */,
+				D6CFFEC0198D240A00AA78E6 /* WGChildViewController.m */,
+				D6CFFEC2198D2C9C00AA78E6 /* WGContainerViewController.h */,
+				D6CFFEC3198D2C9C00AA78E6 /* WGContainerViewController.m */,
 			);
 			path = WGContainerTransitions;
 			sourceTree = "<group>";
@@ -205,7 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6CFFEC1198D240A00AA78E6 /* WGChildViewController.m in Sources */,
 				D6CFFEA8198D22A800AA78E6 /* AppDelegate.m in Sources */,
+				D6CFFEC4198D2C9C00AA78E6 /* WGContainerViewController.m in Sources */,
 				D6CFFEA5198D22A800AA78E6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
